@@ -1,38 +1,37 @@
-.App {
-  text-align: center;
+/* 標準色
+米黃：rgb(255,242,204)
+橘：rgb(252,174,107)
+淺綠：rgb(92,173,128)
+深綠：rgb(26,70,60)
+紅：rgb(199,62,58)
+
+*/
+.bg-std-red {
+  background-color: rgb(199,62,58);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bg-std-orange {
+  background-color: rgb(252,174,107);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bg-std-light-green {
+  background-color: rgb(92,173,128);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.bg-std-dark-green {
+  background-color: rgb(26,70,60);
 }
 
-.App-link {
-  color: #61dafb;
+.vh-100 {
+  height: 100vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-link {
+  cursor: pointer;
+  color: black;
+  font-weight: bold;
+}
+
+#navbar {
+  padding-top: 0;
 }
